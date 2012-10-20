@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BaseFormTest" file="/Users/nedvisol/Google Drive/20 Personal/Development/MyZendApp1/tests/vendor/NedVisol/library/UI/BaseFormTest.php" tests="2" assertions="1" failures="0" errors="0" time="0.022426">
+    <testcase name="testRenderBlankForm" class="BaseFormTest" file="/Users/nedvisol/Google Drive/20 Personal/Development/MyZendApp1/tests/vendor/NedVisol/library/UI/BaseFormTest.php" line="19" assertions="1" time="0.019389"/>
+    <testcase name="testRenderWithSingleData" class="BaseFormTest" file="/Users/nedvisol/Google Drive/20 Personal/Development/MyZendApp1/tests/vendor/NedVisol/library/UI/BaseFormTest.php" line="26" assertions="0" time="0.003037"/>
+  </testsuite>
+</testsuites>

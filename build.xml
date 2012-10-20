@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="PHP build script" basedir=".">
+	<property name="targetdir" value="target" />
+	<property name="testsdir" value="tests" />
+	<property name="phpunitdir" value="/usr/local/zend/bin"/>
+	
+	<target name="clean">
+		<delete dir="${targetdir}" />
+	</target>
+	
+	<target name="init-target">
+		<mkdir dir="${targetdir}" />
+	</target>
+	
+	<target name="testall" depends="init-target">
+		<exec dir="." executable="${phpunitdir}/phpunit">
+			<arg line="-c ${testsdir}/phpunit.xml" />
+		</exec>		
+	</target>
+	<target name="testfile" depends="init-target">
+		<exec dir="." executable="${phpunitdir}/phpunit">
+			<arg line="-c ${testsdir}/phpunit.xml" />
+			<arg line="${testclass}"/>
+			<arg line="${srctest}"/>
+		</exec>		
+	</target>
+</project>

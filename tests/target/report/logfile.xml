@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Vendor_NedVisol" tests="1" assertions="1" failures="0" errors="0" time="0.009221">
+    <testsuite name="BaseModelTest" file="/Users/nedvisol/Google Drive/20 Personal/Development/MyZendApp1/tests/vendor/NedVisol/library/Orm/BaseModelTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.009221">
+      <testcase name="testTest" class="BaseModelTest" file="/Users/nedvisol/Google Drive/20 Personal/Development/MyZendApp1/tests/vendor/NedVisol/library/Orm/BaseModelTest.php" line="6" assertions="1" time="0.009221"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
